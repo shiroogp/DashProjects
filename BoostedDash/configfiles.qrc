@@ -1,0 +1,17 @@
+<RCC>
+    <qresource prefix="/">
+        <file>exampleDash/Nissan_Apexi_Full.txt</file>
+        <file>exampleDash/ExampleApexi_full_yellow.txt</file>
+        <file>exampleDash/ExampleLink_full.txt</file>
+        <file>exampleDash/ExampleLink_half.txt</file>
+        <file>exampleDash/Link_1.txt</file>
+        <file>exampleDash/MainDash.txt</file>
+        <file>exampleDash/MainDash_example1.txt</file>
+        <file>exampleDash/MainDash2Image.txt</file>
+        <file>exampleDash/ExampleApexi_frameless.txt</file>
+        <file>exampleDash/MainDash3Full.txt</file>
+        <file>exampleDash/Example_Apexi_Dash2.txt</file>
+        <file>exampleDash/MainDash3.txt</file>
+        <file>exampleDash/MainDash2.txt</file>
+    </qresource>
+</RCC>

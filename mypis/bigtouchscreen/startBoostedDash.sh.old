@@ -1,0 +1,7 @@
+#!/bin/bash
+export QT_QPA_EGLFS_PHYSICAL_WIDTH=223
+export QT_QPA_EGLFS_PHYSICAL_HEIGHT=125
+#sh /home/pi/launch.sh  >/home/pi/logs/cronlog 2>&1
+python3 /home/pi/2dashKi.py >/home/pi/logs/dashlog 2>&1 && sleep 2 && python3 /home/pi/pythonqmltest/aaa.py >/home/pi/logs/broadcastlog 2>&1 && python3 /home/pi/pythonqmltest/abroadcastlisten.py >/home/pi/logs/listenlog 2>&1
+#python /home/pi/pythonqmltest/aaa.py & /opt/boosteddash/bin/boosteddash
+#/usr/local/bin/TunerStudio.sh

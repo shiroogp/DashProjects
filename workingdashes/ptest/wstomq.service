@@ -1,0 +1,34 @@
+#[Unit]
+#Description=Wetter aktualisieren
+#After=network-online.target
+#Wants=network-online.target#
+#
+#[Service]
+#Type=simple
+#ExecStart=/bin/bash /media/usbspeicher/Wetter/mosmixparser-1.0/mosmixskript_unit.sh
+#Restart=on-failure
+#RestartSec=1
+#
+#
+[Unit]
+Description=Test Service Unit
+#Before=runlevel2.target runlevel3.target runlevel4.target runlevel5.target shutdown.target
+After=network-online.target
+Wants=network-online.target
+#Conflicts=shutdown.target
+
+[Service]
+WorkingDirectory=/home/pi/ptest
+ExecStart=sudo python3 app.py
+Restart=always
+StandardOutput=file:/var/log/logwstomq.log
+StandardError=file:/var/log/logwstomqerr.log
+SyslogIdentifier=hud
+User=pi
+Group=pi
+Environment=NODE_ENV=production
+
+[Install]
+#WantedBy=default.target
+WantedBy=multi-user.target
+

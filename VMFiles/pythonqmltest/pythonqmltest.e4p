@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Project SYSTEM "Project-5.1.dtd">
+<!-- eric project file for project pythonqmltest -->
+<!-- Saved: 2019-03-06, 14:18:43 -->
+<!-- Copyright (C) 2019 ,  -->
+<Project version="5.1">
+  <Language>en_US</Language>
+  <Hash>9e1a449450b6aed4670528b86897e6d88e88591b</Hash>
+  <ProgLanguage mixed="0">Python3</ProgLanguage>
+  <ProjectType>PyQt5</ProjectType>
+  <Version>0.1</Version>
+  <Author></Author>
+  <Email></Email>
+  <Eol index="0"/>
+  <Sources>
+    <Source>Car_HUD.py</Source>
+    <Source>Car_HUD2.py</Source>
+    <Source>Car_HUD_old.py</Source>
+    <Source>LSM9DS0.py</Source>
+    <Source>__init__.py</Source>
+    <Source>debugEvent.py</Source>
+    <Source>kalman_filter.py</Source>
+    <Source>main.py</Source>
+    <Source>obd2_codes.py</Source>
+    <Source>obd_capture.py</Source>
+    <Source>obd_gui.py</Source>
+    <Source>obd_io.py</Source>
+    <Source>obd_recorder.py</Source>
+    <Source>obd_sensors.py</Source>
+    <Source>obd_utils.py</Source>
+    <Source>qthread_app.py</Source>
+    <Source>rpiIMU.py</Source>
+    <Source>temp_read.py</Source>
+    <Source>test.py</Source>
+  </Sources>
+  <Others>
+    <Other>pythonqmltest.e4p</Other>
+  </Others>
+  <MainScript>main.py</MainScript>
+  <Vcs>
+    <VcsType>None</VcsType>
+  </Vcs>
+  <FiletypeAssociations>
+    <FiletypeAssociation pattern="*.e4p" type="OTHERS"/>
+    <FiletypeAssociation pattern="*.idl" type="INTERFACES"/>
+    <FiletypeAssociation pattern="*.md" type="OTHERS"/>
+    <FiletypeAssociation pattern="*.proto" type="PROTOCOLS"/>
+    <FiletypeAssociation pattern="*.py" type="SOURCES"/>
+    <FiletypeAssociation pattern="*.py3" type="SOURCES"/>
+    <FiletypeAssociation pattern="*.pyw" type="SOURCES"/>
+    <FiletypeAssociation pattern="*.pyw3" type="SOURCES"/>
+    <FiletypeAssociation pattern="*.qm" type="TRANSLATIONS"/>
+    <FiletypeAssociation pattern="*.qrc" type="RESOURCES"/>
+    <FiletypeAssociation pattern="*.rst" type="OTHERS"/>
+    <FiletypeAssociation pattern="*.ts" type="TRANSLATIONS"/>
+    <FiletypeAssociation pattern="*.txt" type="OTHERS"/>
+    <FiletypeAssociation pattern="*.ui" type="FORMS"/>
+    <FiletypeAssociation pattern="GNUmakefile" type="OTHERS"/>
+    <FiletypeAssociation pattern="Makefile" type="OTHERS"/>
+    <FiletypeAssociation pattern="README" type="OTHERS"/>
+    <FiletypeAssociation pattern="README.*" type="OTHERS"/>
+    <FiletypeAssociation pattern="makefile" type="OTHERS"/>
+  </FiletypeAssociations>
+</Project>

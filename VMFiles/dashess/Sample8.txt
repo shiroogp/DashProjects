@@ -1,0 +1,7 @@
+266,120,0,240,300,0,kPa,MAP,false,true,false,Dashboard,MAP,MAP,10000,-10000,grey,black,grey,white,white,blue,25,40
+266,120,267,240,2,3,λ,LAMBDA,false,true,false,Dashboard,LAMBDA,LAMBDA,10000,-10000,grey,black,grey,white,white,blue,25,40
+                      266,120,534,240,100,0,°C,IAT,false,true,false,Dashboard,Intaketemp,Intaketemp,10000,-10000,grey,black,grey,white,white,blue,25,40
+199,120,0,360,500,0,kPa,FUEL P.,false,true,false,Dashboard,FuelPress,FuelPress,10000,-10000,grey,black,grey,white,white,blue,25,40
+199,120,200,360,500,0,kPa,OIL P.,false,true,false,Dashboard,oilpres,oilpres,10000,-10000,grey,black,grey,white,white,blue,25,40
+219,120,400,360,100,0,%,ETHANOL %,false,true,false,Dashboard,fuelcomposition,fuelcomposition,10000,-10000,grey,black,grey,white,white,blue,25,40
+179,120,620,360,100,0,°C,ECT,false,true,false,Dashboard,Watertemp,Watertemp,94,-10,grey,black,grey,white,white,blue,25,40

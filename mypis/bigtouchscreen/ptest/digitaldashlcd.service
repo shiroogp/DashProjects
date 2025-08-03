@@ -1,0 +1,12 @@
+After=sertosock.service
+
+[Service]
+WorkingDirectory=/home/core/ptest
+ExecStart=/usr/bin/python3 HUD.py
+Restart=always
+StandardOutput=file:/var/log/log5.log
+StandardError=file:/var/log/log6.log
+SyslogIdentifier=hud
+User=root
+Group=root
+Environment=NODE_ENV=production

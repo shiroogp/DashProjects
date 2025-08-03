@@ -1,0 +1,729 @@
+cd /boot
+ls#
+ls
+cd LCD-show-master/
+ls
+sudo ./LCD35C-show 
+raspi-config 
+sudo raspi-config 
+ifconfig 
+sudo raspi-config 
+sudo raspi-config 
+ifconfig
+sudo reboot
+htop
+python --version
+sudo apt-get install python3-pygame
+cd ptest/
+python HUD.py 
+sudo apt-get install python3-websockets
+python HUD.py 
+pip install websocket_client
+pip install websocket_client websocket-client
+python HUD.py 
+nano HUD.py 
+python HUD.py 
+nano HUD.py 
+python HUD.py 
+nano HUD.py 
+python HUD.py 
+nano HUD.py 
+python HUD.py 
+nano digitaldashlcd.service 
+ls -l *.service
+ls -l ../*/*.service
+nano digitaldashlcd.service 
+cp digitaldashlcd.service /etc/systemd/system
+sudo cp digitaldashlcd.service /etc/systemd/system
+sudo systemctl enable digitaldashlcd.service 
+sudo reboot
+htop 
+cd ptest/
+python HUD.py 
+htop
+tail -f /var/log/*.log
+sudo systemctl restart digitaldashlcd.service && tail -f /var/log/lo*.log
+nano ~/ptest/HUD.py 
+sudo systemctl restart digitaldashlcd.service && tail -f /var/log/lo*.log
+systemctl daemon-reload
+sudo systemctl restart digitaldashlcd.service && tail -f /var/log/lo*.log
+history | grep -i HUD
+systemctl daemon-reload
+sudo systemctl restart digitaldashlcd.service && tail -f /var/log/lo*.log
+sudo reboot
+sudo journalctl -u digitaldashlcd.service 
+sudo nano /etc/systemd/system/digitaldashlcd.service 
+htop
+raspi-config 
+sudo raspi-config 
+htop
+nano ~/ptest/HUD.py 
+sudo fbi -T 1 ~/ptest/compass_needle.png 
+nano ~/ptest/HUD.py 
+sudo reboot
+tail -f /var/log/lo*.log
+htop
+sudo systemctl stop digitaldashlcd.service 
+htop
+mv /var/log/log*.log .
+sudo mv /var/log/log*.log .
+sudo reboot
+htop
+tail -f /var/log/lo*.log
+sudo systemctl stop digitaldashlcd.service 
+python ptest/HUD.py 
+sudo nano /etc/systemd/system/digitaldashlcd.service 
+sudo pip install websocket_client websocket-client
+sudo python ptest/HUD.py 
+sudo reboot
+tail -f /var/log/lo*.log
+sudo systemctl stop digitaldashlcd.service 
+htop
+sudo python3 ptest/HUD.py 
+cd ptest/
+sudo python3 HUD.py 
+sudo nano HUD.py 
+sudo python3 HUD.py 
+sudo nano HUD.py 
+sudo python3 HUD.py 
+sudo nano HUD.py 
+sudo python3 HUD.py 
+sudo nano HUD.py 
+sudo python3 HUD.py 
+sudo nano /etc/systemd/system/digitaldashlcd.service 
+systemctl daemon-reload
+sudo reboot
+htop
+tail -f /var/log/lo*.log
+sudo systemctl restart digitaldashlcd.service && tail -f /var/log/lo*.log
+python ptest/HUD.py 
+nano ptest/HUD.py 
+sudo nano /etc/systemd/system/digitaldashlcd.service 
+sudo reboot
+sudo journalctl -u digitaldashlcd.service 
+tail -f /var/log/lo*.log
+nano launcher.sh
+chmod 755 launcher.sh
+mkdir logs
+sudo crontab -e
+sudo reboot
+chmod +x launcher.sh 
+./launcher.sh 
+sudo reboot
+htop
+nano ptest/HUD.py 
+tail logs/cronlog 
+./launcher.sh 
+sudo reboot
+tail -f logs/cronlog 
+less logs/cronlog 
+htop
+ps -aux
+ps -aux | grep -i HUD
+sudo systemctl disable digitaldashlcd.service 
+sudo reboot
+ps -aux | grep -i HUD
+./launcher.sh 
+sudo nano /etc/systemd/system/digitaldashlcd.service 
+sudo crontab -e
+sudo systemctl enable digitaldashlcd.service 
+sudo reboot
+htop
+nano ptest/HUD.py 
+./launcher.sh 
+sudo reboot
+sudo nano test.py
+chmod +x test.py 
+sudo chmod +x test.py 
+./test.py 
+sudo nano test.py
+./test.py 
+sudo ./test.py 
+sudo nano test.py
+sudo ./test.py 
+ls -l /dev/tty*
+sudo apt install fbi
+sudo fbi -T 2 -d /dev/fb1 -noverbose -a ptest/needle.png 
+while true; do sudo cat /dev/urandom > /dev/fb1; sleep .01; done
+df -h
+su root
+sudo raspi-config
+htop
+nano ptest/HUD.py 
+while true; do sudo cat /dev/urandom > /dev/fb1; sleep .01; done
+while true; do sudo cat /dev/urandom > /dev/fb0; sleep .01; done
+while true; do sudo cat /dev/urandom > /dev/fb2; sleep .01; done
+htop
+tail -f logs/cronlog 
+tail -f /var/log/lo*
+sudo systemctl stop digitaldashlcd.service 
+htop
+nano ptest/HUD.py 
+sudo su
+ls -l
+nano test.py 
+sudo nano test.py 
+./test.py 
+sudo nano test.py 
+sudo ./test.py 
+sudo su
+sudo systemctl stop digitaldashlcd.service 
+htop
+sudo fbi -T 2 -d /dev/fb0 -noverbose -a ptest/needle.png 
+while true; do sudo cat /dev/urandom > /dev/fb0; sleep .01; done
+while true; do sudo cat /dev/urandom > /dev/fb1; sleep .01; done
+sudo fbi -T 2 -d /dev/fb1 -noverbose -a ptest/needle.sudo systemctl stop digitaldashlcd.service 
+python ptest/HUD.py 
+sudo python ptest/HUD.py 
+cd ptest/
+sudo python HUD.py 
+while true; do sudo cat /dev/urandom > /dev/fb1; sleep .01; done
+while true; do sudo cat /dev/urandom > /dev/fb0; sleep .01; done
+sudo fbi -T 2 -d /dev/fb0 -noverbose -a ptest/needle.png 
+sudo fbi -T 2 -d /dev/fb1 -noverbose -a ptest/needle.png 
+sudo fbi -T 2 -d /dev/fb1 -noverbose -a needle.png 
+nano HUD.py 
+sudo fbi -T 2 -d /dev/fb0 -noverbose -a needle.png 
+while true; do sudo cat /dev/urandom > /dev/fb0; sleep .01; done
+while true; do sudo cat /dev/urandom > /dev/fb1; sleep .01; done
+sudo fbi -T 2 -d /dev/fb0 -noverbose -a needle.png 
+sudo fbi -T 2 -d /dev/fb1 -noverbose -a needle.png 
+nano HUD.py 
+sudo su
+ps -aux
+sudo kill -9 296
+htop
+sudo fbi -T 2 -d /dev/fb0 -noverbose -a ptest/needle.png 
+sudo fbi -T 2 -d /dev/fb1 -noverbose -a ptest/needle.png 
+sudo reboot
+htop
+ps -aux
+sudo kill -9 596
+htop
+sudo systemctl disable digitaldashlcd.service 
+sudo reboot
+sudo systemctl stop digitaldashlcd.service 
+sudo su
+htop
+sudo su
+cd ptest/
+sudo python3 app.py 
+sudo nano /etc/systemd/system/digitaldashlcd.service 
+sudo reboot
+htop
+cd ptest/
+sudo python3 app.py 
+systemctl daemon-reload
+sudo nano /etc/systemd/system/digitaldashlcd.service 
+tail -f /var/log/lo*
+sudo reboot
+tail -f /var/log/lo*
+rm -f /var/log/log*
+sudo rm -f /var/log/log*
+sudo systemctl restart digitaldashlcd.service && tail -f /var/log/lo*.log
+tail -f /var/log/lo*.log
+sudo systemctl stop digitaldashlcd.service
+systemctl is-active mosquitto
+sudo nano /etc/mosquitto/mosquitto.conf
+sudo nano /etc/mosquitto/conf.d/README
+sudo systemctl enable mosquitto.service
+apt-get install mosquitto
+sudo apt install mosquitto
+sudo apt-get install mosquitto mosquitto-clients
+sudo pip install paho-mqtt
+history 
+cd ptest/
+sudo python3 app.py 
+cd ptest/
+python3 MQHUD.py 
+sudo fbi -T 2 -d /dev/fb1 -noverbose -a ptest/needle.png 
+sudo fbi -T 2 -d /dev/fb0 -noverbose -a ptest/needle.png 
+python3 MQHUD.py 
+sudo python3 MQHUD.py 
+sudo reboot
+tail -f /var/log/lo*.log
+htop
+cd ptest/
+sudo python3 app.py 
+sudo fbi -T 2 -d /dev/fb0 -noverbose -a needle.png 
+sudo python3 app.py 
+nano app.py 
+nano wstomq.py 
+sudo python3 app.py 
+sudo pip uninstall paho-mqtt
+sudo pip install "paho<2.0.0"
+sudo pip install paho<2.0.0
+sudo pip install "paho<2.0.0"
+sudo pip install "paho-mqtt<2.0.0"
+sudo python3 app.py 
+ps -aux
+sudo kill -9 917
+sudo kill -9 918
+sudo kill -9 919
+sudo kill -9 920
+htop
+sudo reboot
+cd ptest/
+sudo python3 MQHUD.py 
+sudo su
+sudo python3 MQHUD.py 
+sudo systemctl disabledisable digitaldashlcd.service 
+sudo systemctl disable digitaldashlcd.service 
+nano ../launcher.sh 
+cd ../
+sudo ./launcher.sh 
+sudo chmod u+x launcher.sh 
+./launcher.sh 
+sudo nano /etc/systemd/system/wstomq.service
+sudo nano /etc/systemd/system/mqdash.service
+sudo systemctl enable wstomq.service
+sudo systemctl enable mqdash.service
+sudo reboot
+sudo nano /etc/systemd/system/digitaldashlcd.service 
+htop
+sudo systemctl restart mqdash.service
+sudo fbi -T 2 -d /dev/fb0 -noverbose -a ptest/needle.png 
+sudo fbi -T 2 -d /dev/fb1 -noverbose -a ptest/needle.png 
+sudo reboot
+sudo systemctl restart mqdash.service
+htop
+sudo reboot
+history | grep -i nano
+sudo systemctl stop wstomq.service
+sudo systemctl stop mqdash
+cd ptest/
+sudo python3 THUD.py 
+nano THUD.py 
+sudo python3 THUD.py 
+sudo reboot
+sudo nano /etc/systemd/system/wstomq.service 
+systemctl daemon-reload
+sudo reboot
+htop
+ls -l
+cd ptest/
+less MQHUD.py 
+ls -l /dev/input/*
+nano MQHUD.py 
+sudo systemctl restart mqdash.service
+sudo reboot
+ps -aux | grep -i MQ
+sudo kill -9 393
+htop
+tail -f /var/log/lo*.log
+tail -f /var/log/*
+tail -f /var/log/logwstomq.log 
+df -h
+sudo systemctl stop mqdash
+sudo nano /etc/systemd/system/mqdash.service
+cd ptest/
+sudo python3 MQHUD.py
+sudo reboot
+ps -aux | grep -i MQ
+sudo kill -9 398
+ls -l /dev/input/*
+ls -l /dev/*
+wc --bytes /dev/fb*
+echo "320*480*2" | bc -q
+sudo reboot
+sudo systemctl stop mqdash
+cd emu/
+python dashws.py 
+sudo python dashws.py 
+sudo nano /etc/systemd/system/mqdash.service
+sudo python3 dashws.py 
+python --version\
+python --version
+cd ../
+wget https://www.python.org/ftp/python/3.11.4/Python-3.11.4.tgz
+sudo apt update && sudo apt install build-essential zlib1g-dev libncurses5-dev libgdbm-dev libnss3-dev git
+tar -xzvf Python-3.11.4.tgz 
+cd Python-3.11.4/
+./configure --enable-optimizations
+sudo make altinstall
+ls -l
+sudo make altinstall
+cd ../
+python -m venv venv
+venv/bin/pip install pygame=2.6.0
+venv/bin/pip install pygame==2.6.0
+cd emu/
+sudo ../venv/bin/python dashws.py 
+venv/bin/pip install websocket_client
+../venv/bin/pip install websocket_client
+sudo ../venv/bin/python dashws.py 
+less dashws.py 
+sudo ../venv/bin/python dashws.py 
+sudo python dashws.py 
+sudo python dashws196.py 
+sudo python dashws.py 
+sudo python dashws196.py 
+less units_memory.txt 
+sudo python dashws196.py 
+ls -l /dev/input/*
+sudo python dashws196.py 
+history | grep -i enable
+sudo systemctl disable wstomq.service
+sudo systemctl disable mqdash.service
+sudo nano /etc/systemd/system/mqdash.service
+sudo nano /etc/systemd/system/emudash.service
+sudo systemctl enable emudash.service 
+sudo reboot
+ps -aux | grep -i py
+sudo kill -9 397
+history | grep -i enable
+sudo systemctl stop wstomq.service
+htop
+sudo nano /etc/systemd/system/mqdash.service
+cp /etc/systemd/system/mqdash.service ptest/
+sudo nano /etc/systemd/system/wstomq.service 
+cp /etc/systemd/system/wstomq.service ptest/
+history > ptest/history
+python --version
+python3.11
+sudo apt-get install python3.11
+sudo apt install python3.11
+history | grep -i pygame
+htop
+sudo raspi-config 
+htop
+sudo kill -9 385
+htop
+sudo kill -9 8022
+htop
+sudo kill -9 8053
+htop
+history | grep -i enable
+sudo systemctl disable emudash.service
+sudo systemctl enable wstomq.service
+sudo systemctl enable mqdash.service
+sudo reboot
+history 
+sudo nano /etc/systemd/system/emudash.service 
+tail -f /var/log/lo*
+sudo nano /etc/systemd/system/emudash.service 
+tail -f /var/log/lo*
+systemctl daemon-reload
+tail -f /var/log/lo*
+sudo systemctl stop emudash.service 
+tail -f /var/log/lo*
+sudo systemctl stop emudash.service 
+cd emu/
+sudo python3 dashws196.py 
+sudo python dashws196.py 
+history 
+sudo fbi -T 2 -d /dev/fb0 -noverbose -a ptest/needle.png
+sudo fbi -T 2 -d /dev/fb1 -noverbose -a ptest/needle.png
+sudo systemctl stop wstomq.service
+sudo systemctl stop mqdash.service 
+sudo systemctl start emudash.service
+sudo fbi -T 2 -d /dev/fb1 -noverbose -a ptest/needle.png
+sudo systemctl stop emudash.service
+sudo systemctl disable mqdash.service
+sudo systemctl disable wstomq.service
+sudo reboot
+htop
+ps -aux | grep -i py
+sudo kill -9 388
+htop
+sudo fbi -T 2 -d /dev/fb1 -noverbose -a ptest/needle.png
+sudo fbi -T 2 -d /dev/fb0 -noverbose -a ptest/needle.png
+wc --bytes /dev/fb*
+sudo fbi -T 2 -d /dev/fb1 -noverbose -a ptest/needle.png
+cd emu/
+sudo python dashws196.py 
+sudo raspi-config 
+wc --bytes /dev/fb*
+sudo python dashws196.py 
+sudo nano /boot/config.txt 
+sudo reboot
+wc --bytes /dev/fb*
+cd emu/
+sudo python dashws196.py 
+sudo systemctl enable emudash.service 
+tvservice -o 
+wc --bytes /dev/fb*
+sudo python dashws196.py 
+tvservice -o 
+tvservice -h
+tvservice -p
+sudo python dashws196.py 
+sudo reboot
+htop
+sudo systemctl start emudash.service
+tail -f /var/log/lo*
+htop
+wc --bytes /dev/fb*
+htop
+sudo kill -9 625
+htop
+tvservice -h
+tvservice -s
+sudo nano /boot/config.txt 
+sudo reboot
+htop
+sudo kill -9 631
+less ptest/MQHUD.py 
+htop
+cd emu/
+sudo python dashws196.py 
+sudo apt install python3.11
+sudo apt install libxi-dev
+sudo python dashws196.py 
+sudo reboot
+sudo nano /boot/cmdline.txt 
+sudo reboot
+htop
+wc --bytes /dev/fb*
+sudo reboot
+htop
+sudo fbi -T 2 -d /dev/fb1 -noverbose -a ptest/needle.png
+sudo fbi -T 2 -d /dev/fb0 -noverbose -a ptest/needle.png
+htop
+sudo kill -9 636
+htop
+sudo systemctl stop emudash.service
+htop
+cd emu/
+sudo python dashws196.py 
+sudo reboot
+htop
+ps -aux | grep -i py
+sudo kill -9 615
+sudo fbi -T 2 -d /dev/fb0 -noverbose -a ptest/needle.png
+ps -aux | grep -i py
+sudo systemctl stop emudash.service
+cd emu/
+sudo python dashws196.py 
+ps -aux | grep -i py
+sudo systemctl start emudash.service
+ps -aux | grep -i py
+sudo systemctl stop emudash.service
+history | grep -i systemctl
+sudo systemctl disable emudash.service
+sudo systemctl enable wstomq.service
+sudo systemctl enable mqdash.service
+sudo reboot
+sudo systemctl disable mqdash.service
+sudo systemctl disable wstomq.service
+sudo systemctl enable emudash.service
+sudo systemctl stop wstomq.service
+sudo systemctl stop mqdash.service
+cd emu/
+sudo python dashws196.py 
+history 
+sudo reboot
+ps -aux | grep -i py
+sudo kill -9 395
+sudo reboot
+sudo fbi -T 2 -d /dev/fb0 -noverbose -a ptest/needle.png
+ps -aux
+ps -aux | grep -i py
+sudo kill -9 654
+ps -aux | grep -i py
+sudo systemctl stop emudash
+-i py
+ps -aux | grep -i py
+sudo reboot
+systemd-analyze blame
+sudo fbi -T 2 -d /dev/fb0 -noverbose -a ptest/needle.png
+ps -aux | grep -i py
+sudo fbi -T 2 -d /dev/fb1 -noverbose -a ptest/needle.png
+sudo kill -9 621
+sudo fbi -T 2 -d /dev/fb1 -noverbose -a ptest/needle.png
+sudo systemctl stop emudash
+ps -aux | grep -i py
+cd emu/
+sudo python dashws196.py 
+sudo nano /etc/systemd/system/emudash.service 
+sudo nano /etc/systemd/system/mqdash.service 
+sudo nano /etc/systemd/system/emudash.service 
+sudo python dashws196.py 
+sudo nano /etc/systemd/system/emudash.service 
+sudo su
+            sudo nano /boot/config.txt 
+ps -aux | grep -i py
+sudo kill -9 627
+ps -aux | grep -i py
+sudo kill -9 744
+cd emu/
+sudo python dashws196.py 
+sudo reboot
+sudo systemctl stop emudash
+sudo systemctl start emudash
+sudo systemctl stop emudash
+ps -aux | grep -i py
+cd emu/
+sudo python dashws196.py 
+sudo systemctl enable emudash.service
+sudo reboot
+sudo systemctl stop emudash
+cd emu/
+sudo python dashws196.py196.py 
+sudo python dashws196.py
+sudo systemctl start wstomq.service
+sudo systemctl start mqdash.service
+sudo systemctl disable emudash.service 
+sudo systemctl enable wstomq.service
+sudo systemctl enable mqdash.service
+sudo reboot
+ps -aux | grep -i py
+sudo kill -9 571
+sudo systemctl stop mqdash.service
+sudo nano /etc/systemd/system/mqdash.service 
+cd ptest/
+sudo python3 MQEMU.py 
+sudo nano /etc/systemd/system/emudash.service 
+sudo nano /etc/systemd/system/mqdash.service 
+sudo systemctl disable emudash.service 
+sudo nano /etc/systemd/system/mqdash.service 
+sudo nano /etc/systemd/system/mqemu.service 
+sudo systemctl disable mqdash.service 
+sudo systemctl enable mqemu.service 
+sudo reboot
+ps -aux | grep -i py
+sudo kill -9 368
+sudo reboot
+history 
+sudo systemctl stop mqemu.service
+cd ptest/
+sudo nano /etc/systemd/system/mqemu.service 
+sudo python3 MQEMU.py
+systemd-analyze blame
+systemd-analyze critical-chain
+sudo apt-get install haveged
+sudo reboot
+systemd-analyze blame
+sudo reboot
+systemd-analyze blame
+history 
+sudo nano /etc/systemd/system/wstomq.service 
+cd ptest/
+less app.py 
+sudo systemctl disable wstomq.service
+sudo reboot
+sudo systemctl stop mqemu.service
+ps -aux | grep -i py
+history 
+cd emu/
+sudo python3 MQEMU.py
+cd ../ptest/
+sudo python3 MQEMU.py
+sudo systemctl start mqemu.service
+sudo python3 MQEMU.py
+sudo reboot
+history 
+sudo systemctl restart mqemu.service
+sudo fbi -T 2 -d /dev/fb1 -noverbose -a ptest/needle.png
+sudo fbi -T 2 -d /dev/fb0 -noverbose -a ptest/needle.png
+sudo systemctl restart mqemu.service
+sudo systemctl stop mqemu.service
+sudo nano /etc/systemd/system/mqemu.service 
+cd ptest/
+sudo python3 MQEMU.py
+sudo systemctl start wstomq.service
+sudo python3 MQEMU.py
+sudo systemctl enable wstomq.service
+sudo reboot
+htop
+cd emu/
+sudo systemctl stop mqemu.service
+sudo nano /etc/systemd/system/mqemu.service 
+cd ../ptest/
+sudo python3 WSEMU.py
+less app.py 
+sudo nano app.py 
+sudo python3 app.py 
+history 
+sudo python3 app.py 
+sudo nano app.py 
+sudo reboot
+python -v\
+python -v
+python --version
+cd readserial/
+ls -l
+cd serial_websocket/
+sudo python app.py
+sudo pip install tornado
+sudo python app.py
+less app.py
+nano serial_client
+nano serial_client.py
+sudo python app.py
+lsusb
+history 
+wc --bytes /dev/TTY*
+nano serial_client.py
+sudo python app.py
+nano serial_client.py
+sudo python app.py
+sudo raspi-config 
+ldconfig 
+lsusb
+lsusb -l
+lsusb -v
+sudo nano /boot/config.txt 
+sudo nano /etc/rc.local 
+sudo reboot
+history | grep -i stop
+sudo systemctl stop wstomq.service
+htop
+mkdir readserial
+cd readserial/
+scp -r core@192.168.1.74:/home/core/serial_websocket .
+scp -r core@192.168.1.74:/home/core/emu .
+history 
+systemctl status mqemu
+systemctl stop mqemu
+systemctl stop wstomq
+cd ptest/
+cd ../emu/
+sudo python dashws196.py
+ps -aux | grep -i py
+sudo kill -9 31360
+ps -aux | grep -i pysudo reboot
+sudo reboot
+history | grep -i stop
+systemctl stop wstomq
+systemctl stop mqemu
+cd ptest/
+sudo python3 WSEMU.py
+sudo python3 app.py 
+cd /etc/systemd/system/
+ls -l
+history | grep -i stop
+ls -l
+less emudash.service 
+sudo cop wstomq.service wsdash.service
+sudo cp wstomq.service wsdash.service
+sudo nano wsdash.service 
+sudo systemctl disable wstomq
+sudo systemctl disable mqemu
+sudo systemctl enable wsdash
+cd ~/ptest/
+cp app.py appws.py
+sudo nano app.py 
+sudo nano /etc/systemd/system/wsdash.service 
+sudo reboot
+ps -aux | grep -i pysudo reboot
+ps -aux | grep -i py
+sudo kill -9 3085
+ps -aux | grep -i py
+                                                                                                                                  sudo fbi -T 2 -d /dev/fb0 -noverbose -a ptest/needle.png
+sudo fbi -T 2 -d /dev/fb1 -noverbose -a ptest/needle.png
+sudo systemctl restart wsdash.service
+ps -aux | grep -i py
+sudo reboot
+sudo fbi -T 2 -d /dev/fb1 -noverbose -a core.png 
+sudo fbi -T 2 -d /dev/fb0 -noverbose -a core.png 
+sudo reboot
+                                                                                                                     sudo fbi -T 2 -d /dev/fb0 -noverbose -a core.png 
+sudo fbi -T 2 -d /dev/fb1 -noverbose -a core.png 
+sudo systemctl restart wsdash.service
+tail -f /var/log/lo*
+sudo systemctl restart wsdash.service
+sudo reboot
+sudo fbi -T 2 -d /dev/fb1 -noverbose -a core.png 
+tail -f /var/log/lo*
+sudo reboot

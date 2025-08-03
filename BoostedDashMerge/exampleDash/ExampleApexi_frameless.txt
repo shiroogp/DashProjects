@@ -1,0 +1,10 @@
+266,120,150,250,8500,0,rpm,MAP,false,true,true,Dashboard,rpm,rpm,8600,-1,transparent,transparent,transparent,white,white,red,15,30
+266,120,417,250,22,2,A/F,AFR,true,false,false,Dashboard,AFR,AFR,0,15,transparent,transparent,transparent,white,red,gold,15,30
+266,120,684,250,11000,0,kg/m²,MAP,true,false,false,Dashboard,Intakepress,Intakepress,320,1,transparent,transparent,transparent,white,blue,gold,15,30
+266,120,150,370,120,0,deg,Water Temp,false,true,false,Dashboard,Watertemp,Watertemp,108,40,transparent,transparent,transparent,white,pink,gold,15,30
+266,120,417,370,120,0,,Knock,false,true,false,Dashboard,Knock,Knock,0,60,transparent,transparent,transparent,white,purple,gold,15,30
+266,120,684,370,5,2,V,O2 Voltage,false,true,false,Dashboard,O2volt,O2volt,700,80,transparent,transparent,transparent,white,orange,gold,15,30
+199,120,150,490,70,0,deg,Intake Temp,false,true,false,Dashboard,Intaketemp,Intaketemp,50,0,transparent,transparent,transparent,white,grey,gold,15,30
+199,120,350,490,15,2,V,Battery Volts,false,true,false,Dashboard,BatteryV,BatteryV,14.88,11.80,transparent,transparent,transparent,white,cyan,gold,15,30
+219,120,550,490,3,2,,Boost,true,false,true,Dashboard,BoostPres,BoostPres,2.5,-0.5,transparent,transparent,transparent,white,steelblue,steelblue,15,30
+179,120,770,490,5,2,V,TPS,true,false,false,Dashboard,ThrottleV,ThrottleV,101,-1,transparent,transparent,transparent,white,lightgreen,gold,15,30

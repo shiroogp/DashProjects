@@ -1,0 +1,6 @@
+266,80,380,305,2,2,,Boost,false,false,false,Dashboard,BoostPres,BoostPres,20000,-2000,transparent,transparent,transparent,grey,white,blue,25,35
+266,80,0,480,160,0,,ECT,false,false,false,Dashboard,Watertemp,Watertemp,20000,-2000,transparent,transparent,transparent,grey,white,blue,28,40
+266,80,380,480,5,0,,Knock,false,false,false,Dashboard,Knock,Knock,20000,-2000,transparent,transparent,transparent,grey,white,blue,28,40
+266,80,760,480,100,0,,IAT,false,false,false,Dashboard,Intaketemp,Intaketemp,20000,-2000,transparent,transparent,transparent,grey,white,blue,28,40
+370,370,0,0,160,0,kph,Speedo,false,false,false,Dashboard,Speed,Speed,170,-2000,transparent,transparent,transparent,grey,white,blue,28,40,speedogauge,,,,,,,,,,,,,,10
+370,370,390,0,8000,0,rpm,Tacho,false,false,false,Dashboard,rpm,rpm,7000,-2000,transparent,transparent,transparent,grey,white,blue,28,40,tachogauge,,,,,,,,,,,,,,10

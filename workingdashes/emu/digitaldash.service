@@ -1,0 +1,17 @@
+After=sertosock.service
+
+[Service]
+WorkingDirectory=/home/core/emu
+ExecStart=/usr/bin/python3 dashws.py
+Restart=always
+StandardOutput=file:/var/log/log5.log
+StandardError=file:/var/log/log6.log
+SyslogIdentifier=hud
+User=root
+Group=root
+Environment=NODE_ENV=production
+
+#[Install]
+#WantedBy=multi-user.target
+#RequiredBy=sertosock.service
+

@@ -1,0 +1,6 @@
+Fatal Python error: PyEval_SaveThread: the function must be called with the GIL held, but the GIL is released (the current Python thread state is NULL)
+Python runtime state: initialized
+
+Current thread 0xb6fde640 (most recent call first):
+  File "/home/pi/ptest/HUD.py", line 30 in <module>
+Aborted

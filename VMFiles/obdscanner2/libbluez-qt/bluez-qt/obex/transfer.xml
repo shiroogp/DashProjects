@@ -1,0 +1,20 @@
+<!DOCTYPE node PUBLIC "-//freedesktop//DTD D-BUS Object Introspection 1.0//EN"
+          "http://www.freedesktop.org/standards/dbus/1.0/introspect.dtd">
+<node name="/org/bluez/obex/transfer5">
+  <interface name="org.bluez.obex.Transfer">
+    <method name="GetProperties">
+      <arg type="a{sv}" direction="out"/>
+      <annotation name="org.qtproject.QtDBus.QtTypeName.Out0" value="QVariantMap"/>
+    </method>
+    <method name="Cancel"/>
+    <signal name="PropertyChanged">
+      <arg type="s"/>
+      <arg type="v"/>
+    </signal>
+    <signal name="Complete"/>
+    <signal name="Error">
+      <arg type="s"/>
+      <arg type="s"/>
+    </signal>
+  </interface>
+</node>

@@ -1,0 +1,338 @@
+    1  cd /boot
+    2  ls#
+    3  ls
+    4  cd LCD-show-master/
+    5  ls
+    6  sudo ./LCD35C-show 
+    7  raspi-config 
+    8  sudo raspi-config 
+    9  ifconfig 
+   10  sudo raspi-config 
+   11  sudo raspi-config 
+   12  ifconfig
+   13  sudo reboot
+   14  htop
+   15  python --version
+   16  sudo apt-get install python3-pygame
+   17  cd ptest/
+   18  python HUD.py 
+   19  sudo apt-get install python3-websockets
+   20  python HUD.py 
+   21  pip install websocket_client
+   22  pip install websocket_client websocket-client
+   23  python HUD.py 
+   24  nano HUD.py 
+   25  python HUD.py 
+   26  nano HUD.py 
+   27  python HUD.py 
+   28  nano HUD.py 
+   29  python HUD.py 
+   30  nano HUD.py 
+   31  python HUD.py 
+   32  nano digitaldashlcd.service 
+   33  ls -l *.service
+   34  ls -l ../*/*.service
+   35  nano digitaldashlcd.service 
+   36  cp digitaldashlcd.service /etc/systemd/system
+   37  sudo cp digitaldashlcd.service /etc/systemd/system
+   38  sudo systemctl enable digitaldashlcd.service 
+   39  sudo reboot
+   40  htop 
+   41  cd ptest/
+   42  python HUD.py 
+   43  htop
+   44  tail -f /var/log/*.log
+   45  sudo systemctl restart digitaldashlcd.service && tail -f /var/log/lo*.log
+   46  nano ~/ptest/HUD.py 
+   47  sudo systemctl restart digitaldashlcd.service && tail -f /var/log/lo*.log
+   48  systemctl daemon-reload
+   49  sudo systemctl restart digitaldashlcd.service && tail -f /var/log/lo*.log
+   50  history | grep -i HUD
+   51  systemctl daemon-reload
+   52  sudo systemctl restart digitaldashlcd.service && tail -f /var/log/lo*.log
+   53  sudo reboot
+   54  sudo journalctl -u digitaldashlcd.service 
+   55  sudo nano /etc/systemd/system/digitaldashlcd.service 
+   56  htop
+   57  raspi-config 
+   58  sudo raspi-config 
+   59  htop
+   60  nano ~/ptest/HUD.py 
+   61  sudo fbi -T 1 ~/ptest/compass_needle.png 
+   62  nano ~/ptest/HUD.py 
+   63  sudo reboot
+   64  tail -f /var/log/lo*.log
+   65  htop
+   66  sudo systemctl stop digitaldashlcd.service 
+   67  htop
+   68  mv /var/log/log*.log .
+   69  sudo mv /var/log/log*.log .
+   70  sudo reboot
+   71  htop
+   72  tail -f /var/log/lo*.log
+   73  sudo systemctl stop digitaldashlcd.service 
+   74  python ptest/HUD.py 
+   75  sudo nano /etc/systemd/system/digitaldashlcd.service 
+   76  sudo pip install websocket_client websocket-client
+   77  sudo python ptest/HUD.py 
+   78  sudo reboot
+   79  tail -f /var/log/lo*.log
+   80  sudo systemctl stop digitaldashlcd.service 
+   81  htop
+   82  sudo python3 ptest/HUD.py 
+   83  cd ptest/
+   84  sudo python3 HUD.py 
+   85  sudo nano HUD.py 
+   86  sudo python3 HUD.py 
+   87  sudo nano HUD.py 
+   88  sudo python3 HUD.py 
+   89  sudo nano HUD.py 
+   90  sudo python3 HUD.py 
+   91  sudo nano HUD.py 
+   92  sudo python3 HUD.py 
+   93  sudo nano /etc/systemd/system/digitaldashlcd.service 
+   94  systemctl daemon-reload
+   95  sudo reboot
+   96  htop
+   97  tail -f /var/log/lo*.log
+   98  sudo systemctl restart digitaldashlcd.service && tail -f /var/log/lo*.log
+   99  python ptest/HUD.py 
+  100  nano ptest/HUD.py 
+  101  sudo nano /etc/systemd/system/digitaldashlcd.service 
+  102  sudo reboot
+  103  sudo journalctl -u digitaldashlcd.service 
+  104  tail -f /var/log/lo*.log
+  105  nano launcher.sh
+  106  chmod 755 launcher.sh
+  107  mkdir logs
+  108  sudo crontab -e
+  109  sudo reboot
+  110  chmod +x launcher.sh 
+  111  ./launcher.sh 
+  112  sudo reboot
+  113  htop
+  114  nano ptest/HUD.py 
+  115  tail logs/cronlog 
+  116  ./launcher.sh 
+  117  sudo reboot
+  118  tail -f logs/cronlog 
+  119  less logs/cronlog 
+  120  htop
+  121  ps -aux
+  122  ps -aux | grep -i HUD
+  123  sudo systemctl disable digitaldashlcd.service 
+  124  sudo reboot
+  125  ps -aux | grep -i HUD
+  126  ./launcher.sh 
+  127  sudo nano /etc/systemd/system/digitaldashlcd.service 
+  128  sudo crontab -e
+  129  sudo systemctl enable digitaldashlcd.service 
+  130  sudo reboot
+  131  htop
+  132  nano ptest/HUD.py 
+  133  ./launcher.sh 
+  134  sudo reboot
+  135  sudo nano test.py
+  136  chmod +x test.py 
+  137  sudo chmod +x test.py 
+  138  ./test.py 
+  139  sudo nano test.py
+  140  ./test.py 
+  141  sudo ./test.py 
+  142  sudo nano test.py
+  143  sudo ./test.py 
+  144  ls -l /dev/tty*
+  145  sudo apt install fbi
+  146  sudo fbi -T 2 -d /dev/fb1 -noverbose -a ptest/needle.png 
+  147  while true; do sudo cat /dev/urandom > /dev/fb1; sleep .01; done
+  148  df -h
+  149  su root
+  150  sudo raspi-config
+  151  htop
+  152  nano ptest/HUD.py 
+  153  while true; do sudo cat /dev/urandom > /dev/fb1; sleep .01; done
+  154  while true; do sudo cat /dev/urandom > /dev/fb0; sleep .01; done
+  155  while true; do sudo cat /dev/urandom > /dev/fb2; sleep .01; done
+  156  htop
+  157  tail -f logs/cronlog 
+  158  tail -f /var/log/lo*
+  159  sudo systemctl stop digitaldashlcd.service 
+  160  htop
+  161  nano ptest/HUD.py 
+  162  sudo su
+  163  ls -l
+  164  nano test.py 
+  165  sudo nano test.py 
+  166  ./test.py 
+  167  sudo nano test.py 
+  168  sudo ./test.py 
+  169  sudo su
+  170  sudo systemctl stop digitaldashlcd.service 
+  171  htop
+  172  sudo fbi -T 2 -d /dev/fb0 -noverbose -a ptest/needle.png 
+  173  while true; do sudo cat /dev/urandom > /dev/fb0; sleep .01; done
+  174  while true; do sudo cat /dev/urandom > /dev/fb1; sleep .01; done
+  175  sudo fbi -T 2 -d /dev/fb1 -noverbose -a ptest/needle.sudo systemctl stop digitaldashlcd.service 
+  176  python ptest/HUD.py 
+  177  sudo python ptest/HUD.py 
+  178  cd ptest/
+  179  sudo python HUD.py 
+  180  while true; do sudo cat /dev/urandom > /dev/fb1; sleep .01; done
+  181  while true; do sudo cat /dev/urandom > /dev/fb0; sleep .01; done
+  182  sudo fbi -T 2 -d /dev/fb0 -noverbose -a ptest/needle.png 
+  183  sudo fbi -T 2 -d /dev/fb1 -noverbose -a ptest/needle.png 
+  184  sudo fbi -T 2 -d /dev/fb1 -noverbose -a needle.png 
+  185  nano HUD.py 
+  186  sudo fbi -T 2 -d /dev/fb0 -noverbose -a needle.png 
+  187  while true; do sudo cat /dev/urandom > /dev/fb0; sleep .01; done
+  188  while true; do sudo cat /dev/urandom > /dev/fb1; sleep .01; done
+  189  sudo fbi -T 2 -d /dev/fb0 -noverbose -a needle.png 
+  190  sudo fbi -T 2 -d /dev/fb1 -noverbose -a needle.png 
+  191  nano HUD.py 
+  192  sudo su
+  193  ps -aux
+  194  sudo kill -9 296
+  195  htop
+  196  sudo fbi -T 2 -d /dev/fb0 -noverbose -a ptest/needle.png 
+  197  sudo fbi -T 2 -d /dev/fb1 -noverbose -a ptest/needle.png 
+  198  sudo reboot
+  199  htop
+  200  ps -aux
+  201  sudo kill -9 596
+  202  htop
+  203  sudo systemctl disable digitaldashlcd.service 
+  204  sudo reboot
+  205  sudo systemctl stop digitaldashlcd.service 
+  206  sudo su
+  207  htop
+  208  sudo su
+  209  cd ptest/
+  210  sudo python3 app.py 
+  211  sudo nano /etc/systemd/system/digitaldashlcd.service 
+  212  sudo reboot
+  213  htop
+  214  cd ptest/
+  215  sudo python3 app.py 
+  216  systemctl daemon-reload
+  217  sudo nano /etc/systemd/system/digitaldashlcd.service 
+  218  tail -f /var/log/lo*
+  219  sudo reboot
+  220  tail -f /var/log/lo*
+  221  rm -f /var/log/log*
+  222  sudo rm -f /var/log/log*
+  223  sudo systemctl restart digitaldashlcd.service && tail -f /var/log/lo*.log
+  224  tail -f /var/log/lo*.log
+  225  sudo systemctl stop digitaldashlcd.service
+  226  systemctl is-active mosquitto
+  227  sudo nano /etc/mosquitto/mosquitto.conf
+  228  sudo nano /etc/mosquitto/conf.d/README
+  229  sudo systemctl enable mosquitto.service
+  230  apt-get install mosquitto
+  231  sudo apt install mosquitto
+  232  sudo apt-get install mosquitto mosquitto-clients
+  233  sudo pip install paho-mqtt
+  234  history 
+  235  cd ptest/
+  236  sudo python3 app.py 
+  237  cd ptest/
+  238  python3 MQHUD.py 
+  239  sudo fbi -T 2 -d /dev/fb1 -noverbose -a ptest/needle.png 
+  240  sudo fbi -T 2 -d /dev/fb0 -noverbose -a ptest/needle.png 
+  241  python3 MQHUD.py 
+  242  sudo python3 MQHUD.py 
+  243  sudo reboot
+  244  tail -f /var/log/lo*.log
+  245  htop
+  246  cd ptest/
+  247  sudo python3 app.py 
+  248  sudo fbi -T 2 -d /dev/fb0 -noverbose -a needle.png 
+  249  sudo python3 app.py 
+  250  nano app.py 
+  251  nano wstomq.py 
+  252  sudo python3 app.py 
+  253  sudo pip uninstall paho-mqtt
+  254  sudo pip install "paho<2.0.0"
+  255  sudo pip install paho<2.0.0
+  256  sudo pip install "paho<2.0.0"
+  257  sudo pip install "paho-mqtt<2.0.0"
+  258  sudo python3 app.py 
+  259  ps -aux
+  260  sudo kill -9 917
+  261  sudo kill -9 918
+  262  sudo kill -9 919
+  263  sudo kill -9 920
+  264  htop
+  265  sudo reboot
+  266  cd ptest/
+  267  sudo python3 MQHUD.py 
+  268  sudo su
+  269  sudo python3 MQHUD.py 
+  270  sudo systemctl disabledisable digitaldashlcd.service 
+  271  sudo systemctl disable digitaldashlcd.service 
+  272  nano ../launcher.sh 
+  273  cd ../
+  274  sudo ./launcher.sh 
+  275  sudo chmod u+x launcher.sh 
+  276  ./launcher.sh 
+  277  sudo nano /etc/systemd/system/wstomq.service
+  278  sudo nano /etc/systemd/system/mqdash.service
+  279  sudo systemctl enable wstomq.service
+  280  sudo systemctl enable mqdash.service
+  281  sudo reboot
+  282  sudo nano /etc/systemd/system/digitaldashlcd.service 
+  283  htop
+  284  sudo systemctl restart mqdash.service
+  285  sudo fbi -T 2 -d /dev/fb0 -noverbose -a ptest/needle.png 
+  286  sudo fbi -T 2 -d /dev/fb1 -noverbose -a ptest/needle.png 
+  287  sudo reboot
+  288  sudo systemctl restart mqdash.service
+  289  htop
+  290  sudo reboot
+  291  history | grep -i nano
+  292  sudo systemctl stop wstomq.service
+  293  sudo systemctl stop mqdash
+  294  cd ptest/
+  295  sudo python3 THUD.py 
+  296  nano THUD.py 
+  297  sudo python3 THUD.py 
+  298  sudo reboot
+  299  sudo nano /etc/systemd/system/wstomq.service 
+  300  systemctl daemon-reload
+  301  sudo reboot
+  302  htop
+  303  ls -l
+  304  cd ptest/
+  305  less MQHUD.py 
+  306  ls -l /dev/input/*
+  307  nano MQHUD.py 
+  308  sudo systemctl restart mqdash.service
+  309  sudo reboot
+  310  ps -aux | grep -i MQ
+  311  sudo kill -9 393
+  312  htop
+  313  tail -f /var/log/lo*.log
+  314  tail -f /var/log/*
+  315  tail -f /var/log/logwstomq.log 
+  316  df -h
+  317  sudo systemctl stop mqdash
+  318  sudo nano /etc/systemd/system/mqdash.service
+  319  cd ptest/
+  320  sudo python3 MQHUD.py
+  321  sudo reboot
+  322  ps -aux | grep -i MQ
+  323  sudo kill -9 398
+  324  ls -l /dev/input/*
+  325  ls -l /dev/*
+  326  wc --bytes /dev/fb*
+  327  echo "320*480*2" | bc -q
+  328  sudo reboot
+  329  ps -aux | grep -i py
+  330  sudo kill -9 397
+  331  history | grep -i enable
+  332  sudo systemctl stop wstomq.service
+  333  htop
+  334  sudo nano /etc/systemd/system/mqdash.service
+  335  cp /etc/systemd/system/mqdash.service ptest/
+  336  sudo nano /etc/systemd/system/wstomq.service 
+  337  cp /etc/systemd/system/wstomq.service ptest/
+  338  history > ptest/history

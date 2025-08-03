@@ -1,0 +1,12 @@
+prefix=/home/osboxes/raspi/qt5pi
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=/usr/include/bluez-qt5/
+
+
+Name: Bluez-qt5
+Description: Bluez Qt Bindings Library
+Version: 0.1.26
+Libs: -L${libdir} -lbluez-qt5 
+Cflags: -I${includedir}
+

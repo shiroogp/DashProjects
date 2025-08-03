@@ -1,0 +1,90 @@
+---------------------
+[2019-04-15 08:12:35][Info] Application statrs
+---------------------
+---------------------
+[2019-04-15 08:12:40][Debbug] btConnector created
+---------------------
+---------------------
+[2019-04-15 08:12:43][Debbug] Found device: 04-A8-31-8B-45-C6 : 04:A8:31:8B:45:C6
+---------------------
+---------------------
+[2019-04-15 08:12:43][Debbug] Found device: 0F-25-74-42-C8-1E : 0F:25:74:42:C8:1E
+---------------------
+---------------------
+[2019-04-15 08:12:43][Debbug] Found device: Gear S3 (152E) : 14:9F:3C:08:55:2E
+---------------------
+---------------------
+[2019-04-15 08:12:43][Debbug] Scanning BT devices statrs
+---------------------
+---------------------
+[2019-04-15 08:13:03][Debbug] Scanning BT devices finished
+---------------------
+---------------------
+[2019-04-15 08:14:17][Debbug] Found device: 04-A8-31-8B-45-C6 : 04:A8:31:8B:45:C6
+---------------------
+---------------------
+[2019-04-15 08:14:17][Debbug] Found device: 0F-25-74-42-C8-1E : 0F:25:74:42:C8:1E
+---------------------
+---------------------
+[2019-04-15 08:14:18][Debbug] Found device: Gear S3 (152E) : 14:9F:3C:08:55:2E
+---------------------
+---------------------
+[2019-04-15 08:14:18][Debbug] Scanning BT devices statrs
+---------------------
+---------------------
+[2019-04-15 08:14:26][Debbug] Found device: OBDII : 00:1D:A5:68:98:8B
+---------------------
+---------------------
+[2019-04-15 08:14:31][Debbug] Pair button click
+---------------------
+---------------------
+[2019-04-15 08:14:31][Debbug] PAIR: spSharedData->localDevice is valid
+---------------------
+---------------------
+[2019-04-15 08:14:31][Debbug] selected device : OBDII
+---------------------
+---------------------
+[2019-04-15 08:14:31][Debbug] PAIR: selectedRemoteDev is VALID & selectedRemoteDevName: OBDII selectedRemoteDevAddr: 00:1D:A5:68:98:8B
+---------------------
+---------------------
+[2019-04-15 08:14:31][Debbug] PAIR: selectedRemoteDev pairing status is unpaired ? : true
+---------------------
+---------------------
+[2019-04-15 08:14:31][Debbug] Request pairing with OBDII
+---------------------
+---------------------
+[2019-04-15 08:14:38][Debbug] Scanning BT devices finished
+---------------------
+---------------------
+[2019-04-15 08:14:41][Debbug] Pair button click
+---------------------
+---------------------
+[2019-04-15 08:14:41][Debbug] PAIR: spSharedData->localDevice is valid
+---------------------
+---------------------
+[2019-04-15 08:14:41][Debbug] selected device : OBDII
+---------------------
+---------------------
+[2019-04-15 08:14:41][Debbug] PAIR: selectedRemoteDev is VALID & selectedRemoteDevName: OBDII selectedRemoteDevAddr: 00:1D:A5:68:98:8B
+---------------------
+---------------------
+[2019-04-15 08:14:41][Debbug] PAIR: selectedRemoteDev pairing status is unpaired ? : true
+---------------------
+---------------------
+[2019-04-15 08:14:41][Debbug] Request pairing with OBDII
+---------------------
+---------------------
+[2019-04-15 08:14:45][Debbug] connect device button clicked
+---------------------
+---------------------
+[2019-04-15 08:14:45][Debbug] selected device : OBDII
+---------------------
+---------------------
+[2019-04-15 08:14:45][Debbug] err: Connection refused
+---------------------
+---------------------
+[2019-04-15 08:14:45][Debbug] get signal about NOTconnected socket - dev:OBDII
+---------------------
+---------------------
+[2019-04-15 08:14:45][Debbug] socket disconnected
+---------------------

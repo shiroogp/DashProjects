@@ -1,0 +1,5 @@
+QMAKE_PRL_BUILD_DIR = /home/osboxes/obdscanner2/build-bluez-qt-Pi-Debug/bluez-qt
+QMAKE_PRO_INPUT = bluez-qt.pro
+QMAKE_PRL_TARGET = libbluez-qt5.so.0.1.26
+QMAKE_PRL_CONFIG = lex yacc debug exceptions depend_includepath testcase_targets import_plugins import_qpa_plugin file_copies qmake_use qt warn_on link_prl incremental cross_compile shared linux unix posix gcc debug qml_debug link_pkgconfig debug create_pc create_prl have_target dll debug_info c++11 thread opengl dbusadaptors dbusinterfaces moc resources
+QMAKE_PRL_VERSION = 0.1.26

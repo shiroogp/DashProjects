@@ -1,0 +1,763 @@
+    1  wget http://download.qt.io/official_releases/qt/5.12/5.12.1/single/qt-everywhere-src-5.12.1.tar.xz
+    2  wget http://download.qt.io/official_releases/qt/5.12/5.12.2/single/qt-everywhere-src-5.12.2.tar.xz
+    3  ifconfig 
+    4  sudo raspi-config 
+    5  sudo rpi-update
+    6  reboot
+    7  sudo reboot 
+    8  sudo nano /etc/apt/sources.list
+    9  sudo apt-get update
+   10  sudo apt-get build-dep qt4-x11
+   11  sudo apt-get build-dep qt5-x11
+   12  sudo apt-get build-dep libqt5gui5
+   13  sudo apt-get install libudev-dev libinput-dev libts-dev libxcb-xinerama0-dev libxcb-xinerama0
+   14  sudo apt-get install libgl1-mesa-dev
+   15  sudo apt-get build-dep qt5-default
+   16  sudo apt-get install libxcb-xinerama0-dev
+   17  sudo apt-add-repository ppa:u-szeged/sedkit
+   18  sudo apt-get install .^libxcb.*. libx11-xcb-dev libglu1-mesa-dev libxrender-dev libxi-dev
+   19  sudo apt-get install flex bison gperf libicu-dev libxslt-dev ruby
+   20  sudo apt-get install libssl-dev libxcursor-dev libxcomposite-dev libxdamage-dev libxrandr-dev libfontconfig1-dev libcap-dev libxtst-dev libpulse-dev libudev-dev libpci-dev libnss3-dev libasound2-dev libxss-dev libegl1-mesa-dev gperf bison
+   21  sudo apt-get install libbz2-dev libgcrypt11-dev libdrm-dev libcups2-dev libatkmm-1.6-dev
+   22  sudo apt-get install libasound2-dev libgstreamer0.10-dev libgstreamer-plugins-base0.10-dev
+   23  sudo apt-get install bluez libbluetooth-dev
+   24  sudo apt-get install libgstreamer1.0-dev libgstreamer-plugins-base1.0-dev gstreamer1.0-plugins-base gstreamer1.0-plugins-good gstreamer1.0-plugins-ugly gstreamer1.0-plugins-bad libgstreamer-plugins-bad1.0-dev gstreamer1.0-pulseaudio gstreamer1.0-tools gstreamer1.0-alsa
+   25  sudo apt-get install libasound2-dev
+   26  sudo apt-get install pulseaudio libpulse-dev
+   27  sudo apt-get install libpq-dev libmariadbclient-dev
+   28  sudo apt-get install libcups2-dev
+   29  sudo apt-get install libwayland-dev
+   30  sudo apt-get install libx11-dev libxcb1-dev libxkbcommon-x11-dev libx11-xcb-dev libxext-dev
+   31  sudo apt-get install libatspi-dev
+   32  sudo apt-get install libsctp-dev
+   33  cd /opt/vc/lib/
+   34  ls -l
+   35  sudo apt-get install libudev-dev libinput-dev libts-dev libxcb-xinerama0-dev libxcb-xinerama0
+   36  sudo mkdir /usr/local/qt5pi
+   37  sudo chown pi:pi /usr/local/qt5pi
+   38  ifconfig 
+   39  chmod 777 /opt
+   40  sudo chmod 777 /opt
+   41  ln -snf /usr/share/fonts/truetype/dejavu /usr/local/Qt5pi/lib/fonts
+   42  sudo ln -snf /usr/share/fonts/truetype/dejavu /usr/local/Qt5pi/lib/fonts
+   43  sudo ln -snf /usr/share/fonts/truetype/dejavu /usr/local/qt5pi/lib/fonts
+   44  sudo apt-get install screen
+   45  screen
+   46  top
+   47  sudo raspi-config 
+   48  python ~/pythonqmltest/connector2.py 
+   49  sudo nano ~/pythonqmltest/connector2.py 
+   50  sudo nano /etc/hosts
+   51  python ~/pythonqmltest/connector2.py 
+   52  cd pythonqmltest/
+   53  python Car_HUD.py 
+   54  sudo raspi-config 
+   55  sudo nano /etc/hosts
+   56  sudo raspi-config 
+   57  hcitool scan
+   58  hciconfig 
+   59  lsusb
+   60  hciconfig hci0 down
+   61  hciconfig hci0 up
+   62  sudo hciconfig hci0 up
+   63  sudo hciconfig hci0 down
+   64  hciconfig 
+   65  sudo hciconfig hci0 up
+   66  hcitool scan 
+   67  bluetoothctl
+   68  hcitool scan 
+   69  bluetoothctl
+   70  history 
+   71  sudo rfcomm bind rfcomm0 00:1D:A5:68:98:8B
+   72  screen /dev/rfcomm0
+   73  locate rfcomm0
+   74  rfcomm show hci0 
+   75  screen -r
+   76  ps -aux | grep -i screen
+   77  kill -9 3234
+   78  ati
+   79  ifconfig
+   80  sudo raspi-config 
+   81  ifconfig
+   82  startx
+   83  sudo apt-get install locate
+   84  sudo updatedb
+   85  locate OBDScannerLog
+   86  less /home/pi/OBDScannerLog.txt
+   87  tail -200f /home/pi/OBDScannerLog.txt
+   88  tail -200f OBDScannerLog.txt 
+   89  rfcomm show hci0 
+   90  history | grep -i rfcomm
+   91  sudo rfcomm bind rfcomm0 00:1D:A5:68:98:8B
+   92  tail -200f OBDScannerLog.txt 
+   93  hcitool 
+   94  hcitool scan
+   95  startx
+   96  ifconfig 
+   97  reboot
+   98  tail -200f OBDScannerLog.txt 
+   99  bluetooth
+  100  bluetoothctl 
+  101  tail -200f OBDScannerLog.txt 
+  102  sudo apt-get install gdb-server
+  103  sudo apt-get install gdbserver
+  104  tail -200f OBDScannerLog.txt 
+  105  tail -200f OBDScannerLog.txt 
+  106  git clone https://github.com/Roggerson/BluetoothPlayer
+  107  cd BluetoothPlayer/
+  108  chmod +x install.sh 
+  109  ./install.sh 
+  110  ls -l
+  111  cd scripts/
+  112  ls -l
+  113  cd bash/
+  114  ls -l
+  115  ./scan.sh 
+  116  less scannedDevices.txt 
+  117  ./scan.sh 
+  118  less scan.sh 
+  119  nano scan
+  120  nano scan.sh 
+  121  bluetoothctl
+  122  hciconfig 
+  123  bluetoothctl
+  124  ps -aux | grep -i Bluet
+  125  kill -9 732
+  126  cd BluetoothPlayer/scripts/bash/
+  127  ./scan.sh 
+  128  nano scan.sh 
+  129  ./scan.sh 
+  130  nano scan.sh 
+  131  ./scan.sh 
+  132  nano scan.sh 
+  133  ./scan.sh 
+  134  ls -l
+  135  nano pairTrust.sh 
+  136  nano /var/www/html/BluetoothPlayer/scripts/bash/passKey
+  137  ./pairTrust.sh 00:1D:A5:68:98:8B
+  138  bluetoothctl 
+  139  ./pairTrust.sh 00:1D:A5:68:98:8B
+  140  ls -l
+  141  less passKey 
+  142  nano passKey 
+  143  ./pairTrust.sh 00:1D:A5:68:98:8B
+  144  nano pairTrust.sh 
+  145  ./pairTrust.sh 00:1D:A5:68:98:8B
+  146  bluetoothctl 
+  147  cd ~/BluetoothPlayer/
+  148  less install.sh 
+  149  less ~/.xinitrc
+  150  less ~/.profile 
+  151  reboot
+  152  sudo reboot
+  153  reboot
+  154  less .profile 
+  155  sudo reboot
+  156  less .profile 
+  157  sudo reboot
+  158  ps -aux | grep -i python
+  159  kill -9 1139
+  160  top
+  161  ps -aux | grep -i pythonqmltest/
+  162  ps -aux | grep -i pythonqmltest
+  163  kill -9 7709
+  164  sudo nano /home/pi/startPowerTune.sh
+  165  sudo nano /home/pi/startBoostedDash.sh
+  166  sudo chmod +x /home/pi/startBoostedDash.sh 
+  167  ps -aux
+  168  ps -aux | grep -i python
+  169  kill 644
+  170  ps -aux | grep -i power
+  171  kill 646
+  172  ./startBoostedDash.sh 
+  173  ps -aux | grep -i python
+  174  kill 11822
+  175  nano .profile 
+  176  sudo nano /etc/systemd/system/BoostedDash.service
+  177  sudo systemctl start BoostedDash
+  178  ps -aux | grep -i python
+  179  sudo nano /etc/systemd/system/BoostedDash.service
+  180  /home/pi/startBoostedDash.sh 
+  181  ps -aux | grep -i python
+  182  kill 12142
+  183  sudo nano /etc/systemd/system/BoostedDash.service
+  184  sudo systemctl start BoostedDash
+  185  systemctl daemon-reload'
+  186  systemctl daemon-reload
+  187  sudo systemctl daemon-reload
+  188  sudo systemctl start BoostedDash
+  189  sudo systemctl start BoostedDash.service
+  190  ps -aux | grep -i python
+  191  ps -aux | grep -i Power
+  192  nano /boot/config.txt 
+  193  sudo nano /boot/config.txt 
+  194  sudo nano /boot/cmdline.txt 
+  195  sudo reboot
+  196  sudo nano /etc/systemd/system/bootsplash.service
+  197  sudo systemctl start bootsplash.service
+  198  sudo systemctl start BoostedDash.service
+  199  sudo nano /etc/systemd/system/BoostedDash.service 
+  200  chmod 777 /home/pi/startBoostedDash.sh 
+  201  sudo chmod 777 /home/pi/startBoostedDash.sh 
+  202  sudo nano /etc/systemd/system/BoostedDash.service 
+  203  sudo systemctl start BoostedDash.service
+  204  /home/pi/startBoostedDash.sh 
+  205  ps -aux | grep -i pythonqmlte
+  206  kill 934
+  207  sudo systemctl enable bootsplash.service
+  208  sudo reboot 
+  209  sudo nano /etc/systemd/system/BoostedDash.service 
+  210  sudo systemctl start boosteddash.service
+  211  sudo systemctl enable boosteddash.service.service
+  212  sudo systemctl enable boosteddash.service
+  213  sudo reboot
+  214  less /var/log/messages 
+  215  cp /etc/systemd/system/boosteddash.service /lib/systemd/system
+  216  sudo cp /etc/systemd/system/boosteddash.service /lib/systemd/system
+  217  sudo cp /etc/systemd/system/boosteddash.service /lib/systemd/system/
+  218  cd /lib/systemd/
+  219  ls -l
+  220  less system
+  221  cd system
+  222  ls -l
+  223  chmod 777 boosteddash.service 
+  224  sudo chmod 777 boosteddash.service 
+  225  ./boosteddash.service 
+  226  sudo systemctl daemon-reload
+  227  sudo systemctl enable boosteddash.service
+  228  sudo systemctl start boosteddash.service
+  229  sudo journalctl -f -u boosteddash.service
+  230  sudo nano ~/startBoostedDash.sh 
+  231  sudo systemctl start boosteddash.service
+  232  sudo journalctl -f -u boosteddash.service
+  233  ps -aux | grep -i python
+  234  kill 963
+  235  kill -9 963
+  236  sudo kill -9 963
+  237  ps -aux | grep -i python
+  238  sudo journalctl -f -u boosteddash.service
+  239  python ~/pythonqmltest/connector2.py 
+  240  reboot
+  241  sudo reboot
+  242  top
+  243  sudo raspi-config 
+  244  nano /boot/config.txt 
+  245  sudo nano /boot/config.txt 
+  246  locate mem
+  247  sudo nano /etc/dphys-swapfile
+  248  free -m
+  249  sudo /etc/init.d/dphys-swapfile stop
+  250  sudo /etc/init.d/dphys-swapfile start
+  251  free -m
+  252  top
+  253  sudo systemctl stop boosteddash.service
+  254  ps -aux | grep -i pythonqmltest/
+  255  ps -aux | grep -i python
+  256  top
+  257  ifconfig 
+  258  history 
+  259  sudo systemctl start boosteddash.service
+  260  sudo journalctl -f -u boosteddash.service
+  261  top
+  262  sudo journalctl -f -u boosteddash.service
+  263  top
+  264  sudo systemctl stop boosteddash.service
+  265  sudo systemctl start boosteddash.service
+  266  top
+  267  sudo journalctl -f -u boosteddash.service
+  268  sudo reboot
+  269  top
+  270  sudo systemctl stop boosteddash.service
+  271  export QT_OPENGL_NO_SANITY_CHECK=1
+  272  export QSG_RENDER_LOOP=threaded
+  273  sudo systemctl start boosteddash.service
+  274  sudo systemctl stop boosteddash.service
+  275  python pythonqmltest/connector2.py 
+  276  sudo systemctl start boosteddash.service
+  277  sudo systemctl stop boosteddash.service
+  278  sudo nano pythonqmltest/connector2.py 
+  279  sudo systemctl start boosteddash.service
+  280  sudo nano /boot/cmdline.txt 
+  281  sudo systemctl mask plymouth-start.service
+  282  sudo reboot
+  283  sudo nano /boot/config
+  284  sudo nano /boot/config.txt 
+  285  sudo nano /boot/cmdline.txt 
+  286  sudo reboot
+  287  touch ~/.hushlogin
+  288  sudo reboot
+  289  sudo nano /etc/systemd/system/autologin\@.service
+  290  sudo reboot
+  291  sudo systemctl start boosteddash.service
+  292  sudo systemctl stop boosteddash.service
+  293  sudo systemctl start boosteddash.service
+  294  sudo updatedb
+  295  locate Datalog
+  296  locate DataLog.csv
+  297  tail -200f /DataLog.csv 
+  298  cd pythonqmltest/
+  299  ls -l
+  300  less adashKi.py 
+  301  sudo nano connector2.py 
+  302  ps -aux | grep -i pyth
+  303  kill 16684
+  304  kill -9 16684
+  305  sudo kill -9 16684
+  306  python /home/pi/pythonqmltest/connector2.py
+  307  ls -l /home/pi/BoostedGarage/
+  308  tail -200f remotedash.cfg
+  309  tail -200f /home/pi/BoostedGarage/remotedash.cfg
+  310  python /home/pi/pythonqmltest/connector2.py
+  311  sudo nano /home/pi/pythonqmltest/connector2.py
+  312  python /home/pi/pythonqmltest/connector2.py
+  313  sudo nano ~/BoostedGarage/remotedash.cfg 
+  314  python /home/pi/pythonqmltest/connector2.py
+  315  top
+  316  shutdown
+  317  sudo shutdown
+  318  exit
+  319  sudo journalctl -f -u boosteddash.service
+  320  ifconfig 
+  321  ping 10.0.3.1
+  322  ping 10.0.3.55
+  323  ifconfig 
+  324  sudo nano startBoostedDash.sh 
+  325  sudo systemctl stop boosteddash.service
+  326  sudo systemctl start boosteddash.service
+  327  dfv-h
+  328  df -h
+  329  cd ~
+  330  pwd
+  331  ls -l
+  332  networkctl 
+  333  history 
+  334  ls -l
+  335  lessless startBoostedDash.sh
+  336  less startBoostedDash.sh
+  337  tar -xvf TunerStudioMS_v3.1.06.tar.gz 
+  338  cd TunerStudioMS/
+  339  ln -s /home/pi/TunerStudioMS/TunerStudio.sh /usr/local/bin
+  340  sudo ln -s /home/pi/TunerStudioMS/TunerStudio.sh /usr/local/bin
+  341  /usr/local/bin/TunerStudio.sh
+  342  export DISPLAY=:0.0
+  343  /usr/local/bin/TunerStudio.sh
+  344  sudo vi /etc/xdg/lxsession/LXDE-pi/autostart
+  345  sudo nano /etc/xdg/lxsession/LXDE-pi/autostart
+  346  startx
+  347  sudo nano startBoostedDash.sh
+  348  cd ~
+  349  sudo nano startBoostedDash.sh
+  350  nano /home/pi/.config/lxsession/LXDE-pi/autostart
+  351  sudo raspi-config 
+  352  ls -l
+  353  ifconfig
+  354  ping 192.168.1.99
+  355  su
+  356  history 
+  357  cd /home/pi/
+  358  su
+  359  /usr/local/bin/TunerStudio.sh 
+  360  startx
+  361  history 
+  362  startx
+  363  su
+  364  sudo su
+  365  ifconfig
+  366  reboot
+  367  sudo reboot
+  368  /usr/local/bin/TunerStudio.sh 
+  369  shutdown -h now
+  370  uhuctl
+  371  uhubctl
+  372  sudo uhubctl
+  373  sudo nano /sys/devices/platform/soc/3f980000.usb//buspower 
+  374  reboot
+  375  history 
+  376  sudo uhubctl 
+  377  sudo uhubctl -a off -p 3 -l 1-1
+  378  sudo uhubctl 
+  379  reboot
+  380  crontab -e
+  381  history 
+  382  sudo nano /etc/xdg/lxsession/LXDE-pi/autostart
+  383  ifconfig
+  384  history 
+  385  sudo nano /etc/xdg/lxsession/LXDE-pi/autostart
+  386  history 
+  387  stopX
+  388  vi /usr/local/bin/TunerStudio.sh
+  389  less startBoostedDash.sh
+  390  nano /home/pi/.config/lxsession/LXDE-pi/autostart
+  391  tail -200f /home/pi/BoostedGarage/remotedash.cfg
+  392  sudo nano /etc/systemd/system/autologin
+  393  sudo nano /etc/systemd/system/autologin@.service 
+  394  sudo nano /etc/xdg/lxsession/LXDE-pi/autostart 
+  395  sudo nano /etc/systemd/system/boosteddash.service 
+  396  sudo nano /etc/systemd/system/BoostedDash.service 
+  397  sudo systemctl start boosteddash.service
+  398  top
+  399  sudo mv /etc/xdg/lxsession/LXDE-pi/autostart /etc/xdg/lxsession/LXDE-pi/rename_back_to_autostart
+  400  top
+  401  sudo reboot
+  402  mkdir logs
+  403  chmod 777 logs/
+  404  ls -l
+  405  sudo crontab -e
+  406  reboot
+  407  sudo reboot
+  408  top
+  409  vi pythonqmltest/aaa.py 
+  410  sudo nano pythonqmltest/aaa.py 
+  411  sudo reboot
+  412  sudo nano pythonqmltest/aaa.py
+  413  top
+  414  kill -9 657
+  415  sudo kill -9 657
+  416  top
+  417  sudo crontab -e
+  418  sh launch.sh 
+  419  sudo nano pythonqmltest/aaa.py
+  420  sudo nano pythonqmltest/broadcastips.txt
+  421  reboot
+  422  sh launch.sh 
+  423  sudo nano pythonqmltest/aaa.py
+  424  sh launch.sh 
+  425  sudo nano pythonqmltest/broadcastips.txt
+  426  sh launch.sh 
+  427  sudo nano pythonqmltest/broadcastips.txt
+  428  sh launch.sh 
+  429  sudo reboot
+  430  history 
+  431  sudo nano pythonqmltest/aaa.py
+  432  sudo reboot
+  433  top
+  434  ifconfig
+  435  top
+  436  exit
+  437  sudo reboot
+  438  ls -l
+  439  l
+  440  ./dashki.py 
+  441  ps -aux
+  442  sudo kill -9 1325
+  443  ps -aux
+  444  sudo kill -9 1390
+  445  ps -aux
+  446  sudo kill -9 1410
+  447  ps -aux
+  448  sudo kill -9 1432
+  449  ps -aux
+  450  sudo kill -9 1528
+  451  ps -aux
+  452  sudo kill -9 1551
+  453  ps -aux
+  454  sudo kill -9 1579
+  455  ps -aux
+  456  sudo kill -9 1617
+  457  ps -aux
+  458  sudo kill -9 1649
+  459  top
+  460  ps -aux
+  461  sudo kill -9 1672
+  462  ps -aux
+  463  sudo kill -9 1706
+  464  ps -aux
+  465  sudo kill -9 1727
+  466  top
+  467  ps -aux
+  468  vi /etc/wpa_supplicant/wpa_supplicant.conf 
+  469  sudo vi /etc/wpa_supplicant/wpa_supplicant.conf 
+  470  sudo reboot
+  471  ps -aux | grep -i py
+  472  kill -9 797
+  473  sudo kill -9 797
+  474  ps -aux | grep -i boos
+  475  sudo kill -9 684
+  476  ./dashKi.py 
+  477  history 
+  478  ls -l
+  479  ./dashKi.py 
+  480  ./dashKi.py 
+  481  /dashKi.py 
+  482  LS -L
+  483  ls -l
+  484  /dashKi.py 
+  485  ./dashKi.py 
+  486  ps -aux
+  487  kill -9 661
+  488  sudo kill -9 661
+  489  kill -9 618
+  490  sudo kill -9 618
+  491  ls -l
+  492  ifconfig 
+  493  tail -f dashout 
+  494  history 
+  495  python3 2dashKi.py 
+  496  python3 2dashKi.py > dashout
+  497  sudoreboot
+  498  sudo reboot
+  499  ps -aux
+  500  ps -aux | grep aaa
+  501  sudo kill -9 797
+  502  ./2dashKi.py dashout
+  503  python3 ./2dashKi.py dashout
+  504  ifconfig
+  505  sudo nano /etc/wpa_supplicant/wpa_supplicant.conf 
+  506  ifdown wlan0
+  507  sudo ifdown wlan0
+  508  sudo reboot
+  509  iufconfig
+  510  ifconfig
+  511  python3 ./2dashKi.py dashout
+  512  ps -aux
+  513  sudo kill -9 761
+  514  ps -aux
+  515  sudo kill -9 782
+  516  top
+  517  ps -aux
+  518  reboot
+  519  sudo reboot
+  520  ps -aux
+  521  kill -9 806
+  522  kill -9 659
+  523  sudo kill -9 806
+  524  sudo kill -9 659
+  525  top
+  526  crontab -e
+  527  sudo reboot
+  528  python3 ./2dashKi.py dashout
+  529  sh launch.sh 
+  530  sh /home/pi/launch.sh  >/home/pi/logs/cronlog 2>&1
+  531  chmod 777 /home/pi/logs
+  532  sh /home/pi/launch.sh  >/home/pi/logs/cronlog 2>&1
+  533  chmod 777 /home/pi/logs/cronlog 
+  534  sudo chmod 777 /home/pi/logs/cronlog 
+  535  sh /home/pi/launch.sh  >/home/pi/logs/cronlog 2>&1
+  536  ./startBoostedDash
+  537  ./startBoostedDash.sh 
+  538  pwd
+  539  tail -f /home/pi/logs/cronlog 
+  540  ps -aux
+  541  ps -aux | grep -i python
+  542  kill -9 848
+  543  ps -aux | grep -i python
+  544  kill -9 848
+  545  sudo kill -9 848
+  546  ps -aux | grep -i python
+  547  sudo kill -9 1558
+  548  ps -aux | grep -i python
+  549  ps -aux
+  550  sudo reboot
+  551  ps -aux 
+  552  sudo kill -9 1346
+  553  ps -aux 
+  554  history 
+  555  sudo nano /etc/systemd/system/autologin
+  556  sudo nano /etc/xdg/lxsession/LXDE-pi/autostart
+  557  vi /usr/local/bin/TunerStudio.sh
+  558  cat /etc/xdg/lxsession/LXDE-pi/rename_back_to_autostart
+  559  sudo reboot
+  560  cd pythonqmltest/
+  561  python3 aaa.py 
+  562  ps -au
+  563  ps -aux
+  564  reboot
+  565  sudo reboot
+  566  ps -aux
+  567  sudo nano /etc/rc.local
+  568  sudo nano launch.sh 
+  569  cat launch.sh 
+  570  sh launch.sh 
+  571  mkdir broadcast
+  572  chmod 777 broadcast
+  573  sudo reboot
+  574  ps -aux
+  575  vi /home/pi/startBoostedDash.sh
+  576  less /var/log/messages 
+  577  cd logs/
+  578  ls -l
+  579  less broadcastlog 
+  580  vi /home/pi/startBoostedDash
+  581  vi /home/pi/startBoostedDash.sh 
+  582  nano /home/pi/startBoostedDash.sh 
+  583  sudo reboot
+  584  ls -l logs/
+  585  ps -aux
+  586  vi /etc/init.d/rc.l
+  587  vi /etc/rc.local 
+  588  ps -aux | grep -i sh
+  589  kill -9 697
+  590  sudo kill -9 697
+  591  ps -aux | grep -i py
+  592  sudo kill -9 822
+  593  ./startBoostedDash.sh 
+  594  ps -aux | grep -i py
+  595  ps -aux
+  596  sh startBoostedDash.sh 
+  597  ps -aux | grep -i py
+  598  ps -aux
+  599  sh startBoostedDash.sh 
+  600  ps -aux
+  601  sudo reboot
+  602  sudo nano /etc/rc.local 
+  603  ps -aux
+  604  sudo reboot
+  605  ps -aux
+  606  mv 2dashKi.py boosteddash.py
+  607  sudo nano /etc/rc.local 
+  608  mv pythonqmltest/aaa.py .
+  609  mv pythonqmltest/abroadcastlisten.py .
+  610  sudo reboot
+  611  sudo reboot
+  612  tail -f logs/*
+  613  tail -f logs/broadcastlog 
+  614  ps -aux
+  615  sudo kill -9 832
+  616  sudo kill -9 833
+  617  ls -l logs/
+  618  less logs/seriallog 
+  619  python3 abroadcastlisten.py 
+  620  ps -aux
+  621  netstat -ano | grep -i listen
+  622  python3 abroadcastlisten.py 
+  623  sudo netstat -an | grep -i 454
+  624  netstat -ltnp | grep -w '454' 
+  625  sudo netstat -ltnp | grep -w '454' 
+  626  sudo netstat -ltnp | grep -w ':454' 
+  627  sudo netstat -ltnp 
+  628  lsof -i
+  629  sudo lsof -i
+  630  python3 abroadcastlisten.py 
+  631  python3 boosteddash.py 
+  632  tail -f logs/*
+  633  tail -f logs/broadcastlog logs/seriallog 
+  634  tail -123f logs/broadcastlog
+  635  sudo nano /etc/rc.local 
+  636  sudo reboot
+  637  cd logs/
+  638  ls -l
+  639  tail -200f seriallog 
+  640  ps -aux
+  641  netstat -an
+  642  netstat -an | grep listen
+  643  netstat -ano | grep listen
+  644  netstat -ano | grep -i listen
+  645  sudo netstat -ltnp 
+  646  sudo netstat -ano | grep -i listen
+  647  sudo nano /etc/rc.local 
+  648  sudo reboot
+  649  pi
+  650  sudo reboot
+  651  python3 boosteddash.py 
+  652  ps -aux
+  653  less /var/log/messages 
+  654  less /var/log/boot.log 
+  655  less /var/log/lastlog 
+  656  less /var/log/user.log 
+  657  ps -aux
+  658  cd logs/
+  659  ls -l
+  660  less dashlog 
+  661  ls -l
+  662  cd ../
+  663  ls -l
+  664  sudo nano startBoostedDash.sh.old
+  665  cp startBoostedDash.sh.old startBoostedDash.sh
+  666  ls -l
+  667  sudo nano /etc/rc.local 
+  668  sudo nano startBoostedDash.sh
+  669  sudo reboot
+  670  ./startBoostedDash.sh
+  671  vi startBoostedDash.sh
+  672  python3 /home/pi/2dashKi.py >/home/pi/logs/dashlog 2>&1 && sleep 2 && python3 /home/pi/pythonqmltest/aaa.py >/home/pi/logs/broadcastlog 2>&1 && sleep 5 && python3 /home/pi/pythonqmltest/abroadcastlisten.py >/home/pi/logs/listenlog 2>&1
+  673  sudo nano startBoostedDash.sh
+  674  sudo nano /etc/rc.local 
+  675  sudo reboot
+  676  ps -aux
+  677  sudo reboot
+  678  python2.7 boosteddash.py 
+  679  reboot
+  680  ps -aux
+  681  ps -aux | grep -i py
+  682  sudo kill -9 797
+  683  sudo kill -9 800
+  684  which python
+  685  python -v
+  686  python boosteddash.py 
+  687  vi boosteddash.py 
+  688  python boosteddash.py 
+  689  python aaa.py 
+  690  vi aaa.py 
+  691  python aaa.py 
+  692  python boosteddash.py 
+  693  history 
+  694  ifconfig
+  695  history | grep -i wlan
+  696  history | grep -i net
+  697  networkctl 
+  698  raspi-config 
+  699  sudo raspi-config 
+  700  ifdown wlan0
+  701  reboot
+  702  ifconfig 
+  703  history 
+  704  sudo nano /etc/rc.local
+  705  ls -l
+  706  less aaa.py 
+  707  sudo nano /etc/rc.local
+  708  tail -f /home/pi/logs/*
+  709  reboot
+  710  sudo reboot
+  711  ps -aux | grep -i py
+  712  sudo kill -9 732
+  713  sudo kill -9 736
+  714  sudo kill -9 781
+  715  sudo kill -9 784
+  716  python3 aaaws.py 
+  717  python -V
+  718  python3 -V
+  719  python3.5 -V
+  720  which os
+  721  which linux
+  722  which
+  723  raspi-config 
+  724  sudo raspi-config 
+  725  uname
+  726  uname -a
+  727  wget https://www.python.org/ftp/python/3.10.2/Python-3.10.2.tgz
+  728  tar -zxvf Python-3.10.2.tgz
+  729  cd Python-3.10.2
+  730  ./configure --enable-optimizations
+  731  sudo apt update
+  732  sudo apt install -y build-essential tk-dev libncurses5-dev libncursesw5-dev libreadline6-dev libdb5.3-dev libgdbm-dev libsqlite3-dev libssl-dev libbz2-dev libexpat1-dev liblzma-dev zlib1g-dev libffi-dev
+  733  sudo make altinstall
+  734  cd ~
+  735  pwd
+  736  python3.10 aaaws.py 
+  737  history | grep -i pip
+  738  history
+  739  python3.10 -m pip install serial websocket_server
+  740  sudo python3.10 -m pip install serial websocket_server
+  741  sudo apt install libssl-dev libncurses5-dev libsqlite3-dev libreadline-dev libtk8.6 libgdm-dev libdb4o-cil-dev libpcap-dev
+  742  less /etc/apt/sources.list
+  743  vi /etc/apt/sources.list
+  744  sudo vi /etc/apt/sources.list
+  745  sudo nano /etc/apt/sources.list
+  746  sudo apt install libssl-dev libncurses5-dev libsqlite3-dev libreadline-dev libtk8.6 libgdm-dev libdb4o-cil-dev libpcap-dev
+  747  sudo apt install -y build-essential tk-dev libncurses5-dev libncursesw5-dev libreadline6-dev libdb5.3-dev libgdbm-dev libsqlite3-dev libssl-dev libbz2-dev libexpat1-dev liblzma-dev zlib1g-dev libffi-dev
+  748  sudo nano /etc/apt/sources.list
+  749  sudo apt install -y build-essential tk-dev libncurses5-dev libncursesw5-dev libreadline6-dev libdb5.3-dev libgdbm-dev libsqlite3-dev libssl-dev libbz2-dev libexpat1-dev liblzma-dev zlib1g-dev libffi-dev
+  750  sudo nano /etc/apt/sources.list
+  751  sudo apt install -y build-essential tk-dev libncurses5-dev libncursesw5-dev libreadline6-dev libdb5.3-dev libgdbm-dev libsqlite3-dev libssl-dev libbz2-dev libexpat1-dev liblzma-dev zlib1g-dev libffi-dev
+  752  wget https://www.python.org/ftp/python/3.9.19/Python-3.9.19.tgz
+  753  tar -zxvf Python-3.9.19.tgz 
+  754  cd Python-3.9.19/
+  755  ./configure --enable-optimizations
+  756  sudo make altinstall
+  757  sudo python3.9 -m pip install serial websocket_server
+  758  python3.9 aaaws.py 
+  759  cd ~
+  760  python3.9 aaaws.py 
+  761  nano /home/pi/aaaws.py
+  762  python3.9 aaaws.py 
+  763  history > historybkp.txt
