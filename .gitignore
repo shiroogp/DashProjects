@@ -1,0 +1,70 @@
+# Compiled files
+*.o
+*.so
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.class
+*.exe
+*.dll
+*.apk
+*.img
+*.jar
+*.smali
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Qt build artifacts
+moc_*.cpp
+qrc_*.cpp
+ui_*.h
+*.pro.user
+*.qmlc
+*.jsc
+*.qm
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Logs and databases
+*.log
+*.sqlite
+*.db
+
+# Backup files
+*~
+*.bak
+*.backup
+
+# Specific directories to exclude
+pibackup/
+
+# Specific file types to exclude
+*.eps
+*.zip
+*.mp4
+
+# Keep all source files
+!*.py
+!*.cpp
+!*.h
+!*.qml
+!*.java
+!*.html
+!*.css
+!*.js
+!*.md
+!*.sh
+!*.pro
+!*.json
+!*.xml
+!*.ui

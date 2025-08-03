@@ -1,0 +1,166 @@
+var ReactNative = require('react-native'),
+  module993 = require('./993'),
+  o = ReactNative.Dimensions.get('screen'),
+  l = o.height,
+  c = o.width,
+  s = module993.getStatusBarHeight(),
+  u = (exports.layout = {
+    fullWidth: c,
+    fullHeight: l,
+    paddedWidth: c - 32,
+    paddedHeight: l - 32,
+    fullHeightWithBar: l - s - 24,
+  }),
+  h = (exports.colors = {
+    basic: '#111111',
+    menu: '#090909',
+    screenBackground: '#090909',
+    lighter: '#444444',
+    textInput: '#222222',
+    mainText: '#7f87a3',
+    secondText: '#656c85',
+    interactionColor: '#2a2a35',
+    transparent: 'transparent',
+    opacityBlack: 'rgba(0,0,0,0.2)',
+    smoke: 'rgba(27, 31, 46, 0.9)',
+    opacityWhite: 'rgba(255,255,255,0.1)',
+    inactive: 'rgba(225,225,255,0.2)',
+    opacityShadow: 'rgba(0,0,0,0.05)',
+    shadow: '#080809',
+    buttons: {
+      flat: '#222',
+      save: '#237983',
+      cancel: '#252525',
+    },
+    red: '#c0392b',
+    green: '#27ae60',
+    orange: '#e67e22',
+    black: '#000000',
+    gradientTop: ['#2a2a2f', '#090909'],
+    gradientMiddle: ['#090909', '#1f1f25', '#090909'],
+    white: '#FFFFFF',
+    offWhite: '#DFDFDF',
+    inputBg: '#161924',
+    border: '#2c3142',
+  }),
+  p = (exports.style = ReactNative.StyleSheet.create({
+    main: {
+      flex: 1,
+      alignItems: 'center',
+      justifyContent: 'center',
+    },
+    mainPadded: {
+      flex: 1,
+      width: u.paddedWidth,
+      margin: 16,
+    },
+    contentContainer: {
+      padding: 16,
+      paddingTop: 8,
+    },
+    contentFullContainer: {
+      padding: 0,
+      width: u.fullWidth,
+    },
+    linearGradient: {
+      position: 'absolute',
+      height: 350,
+      width: u.fullWidth,
+      top: 0,
+    },
+    alignCenter: {
+      alignItems: 'center',
+      justifyContent: 'center',
+      textAlign: 'center',
+    },
+    header: {
+      height: 40,
+      alignItems: 'flex-end',
+      justifyContent: 'space-between',
+      flexDirection: 'row',
+      marginTop: 80,
+      width: u.paddedWidth,
+      marginBottom: 40,
+    },
+    headerLogo: {
+      width: 37.93,
+      height: 33,
+    },
+    buttonText: {
+      fontSize: 16,
+      color: 'white',
+      alignSelf: 'center',
+      textTransform: 'uppercase',
+      fontWeight: '300',
+    },
+    button: {
+      height: 56,
+      flex: 1,
+      display: 'flex',
+      backgroundColor: h.buttons.flat,
+      borderRadius: 4,
+      margin: 8,
+      alignSelf: 'stretch',
+      justifyContent: 'center',
+    },
+    saveButton: {
+      backgroundColor: h.buttons.save,
+    },
+    cancelButton: {
+      backgroundColor: h.buttons.cancel,
+    },
+    stacked: {
+      flexDirection: 'column',
+      justifyContent: 'center',
+      alignItems: 'center',
+    },
+    opposite: {
+      justifyContent: 'space-between',
+    },
+    pinInput: {
+      fontSize: 48,
+      textAlign: 'center',
+      width: c / 1.5,
+      letterSpacing: 4,
+      backgroundColor: h.inputBg,
+      color: h.white,
+      padding: 8,
+      paddingHorizontal: 16,
+      borderRadius: 4,
+      margin: 16,
+    },
+  }));
+
+exports.defaultScreenOptions = {
+  headerStyle: {
+    backgroundColor: h.black,
+    elevation: 0,
+    shadowOpacity: 0,
+  },
+  headerTintColor: h.mainText,
+  headerTitleAlign: 'center',
+  headerTitleAllowFontScaling: false,
+  headerBackAllowFontScaling: false,
+  headerPressColorAndroid: h.interactionColor,
+  cardStyle: {
+    backgroundColor: h.screenBackground,
+    color: h.mainText,
+  },
+  barStyle: {
+    backgroundColor: h.shadow,
+    color: h.mainText,
+  },
+  gestureEnabled: false,
+  headerBackTitle: ' ',
+};
+exports.defaultTabScreenOptions = {
+  cardStyle: {
+    backgroundColor: h.transparent,
+    color: h.mainText,
+  },
+};
+exports.tabBarOptions = {
+  adaptive: false,
+  keyboardHidesTabBar: true,
+};
+exports.default = p;
